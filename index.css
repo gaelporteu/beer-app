@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+html, body {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #F0D2AD ;
+    color: #A38155;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    padding: 0 10px;
+    height: 100vh;
+}
+
+.menu {
+    display: flex;
+    width: 70vw;
+    background: #D1EFFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: #A38155 2px 2px 6px .01px;
+    height: fit-content;
+}
+
+.menu img {
+    max-width: 33%;
+    border-radius: 5px;
+    height: 50vh;
+    margin-right: 20px;
+}
+
+.menu .col {
+    text-align: left;
+    color: #A38155;
+}
+
+.noImage {
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    text-shadow: 1px 1px 24px #000000;
+}
+
+.hide {
+    display: none;
+}
+
+.menu h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.menu h6 {
+    display: inline-block;
+    background: #A38155;
+    color: #D1EFFF;
+    padding: 3px 6px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin: 0 5px 0 0;
+}
+
+.menu p {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.pairTitle {
+    margin: 0;
+    font-weight: 500;
+}
+
+button {
+    background: #D1EFFF;
+    border: 0;
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 10px;
+    color: #A38155;
+    box-shadow: #A38155 2px 2px 2px .1px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}
